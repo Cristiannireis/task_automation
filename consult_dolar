@@ -1,0 +1,49 @@
+import pyautogui as positionMouse
+import pyautogui as tempoEspera
+
+# tempo de espera para o computador processar
+
+tempoEspera.sleep(1)
+
+# movendo o mouse até a poição iniciar
+
+positionMouse.moveTo(529, 747)
+
+# tempo de espera
+tempoEspera.sleep(2)
+
+# Clicando na posição
+
+positionMouse.click(529, 747)
+
+# tempo de espera
+tempoEspera.sleep(1)
+
+
+#Digitando o nome do navegador
+positionMouse.typewrite('Google Chrome')
+
+# tempo de espera
+tempoEspera.sleep(1)
+
+
+# Precionando o entrer para abrir o goolge 
+positionMouse.press('enter')
+
+
+# tempo de espera
+tempoEspera.sleep(1)
+
+#Digitando o valor do dolar
+positionMouse.typewrite('Qual é o valor do dolar hoje')
+
+
+# tempo de espera
+tempoEspera.sleep(1)
+
+
+# Precionando o entrer para abrir o valor do dolar 
+positionMouse.press('enter')
+
+
+#print(positionMouse.position())
